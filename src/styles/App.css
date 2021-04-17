@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+*{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+*{
+  margin:0%;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bewertungs-block{
+  margin: 0px auto;
+width: 200px;
+}
+
+.bewertung{
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 25px;
+  background-color: #76B900;
+  border: 2px solid white;
+}
+
+.btn {
+  text-align: center;
+  padding: 2% 2%;
+  margin-bottom: 1%;
+}
+
+#btn {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2% 1%;
+  position: absolute;
+  top: 60%;
+  bottom: 10%;
+  left: 20%;
+  margin: 0 auto;
+}
+
+#buttons1 li{
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 25px;
+  background-color: #76B900;
+  border: 2px solid white;
+}
+
+#buttons{
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+}
+
+#buttons li{
+  box-sizing: border-box;
+  width: 78%;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 25px;
+  background-color: #76B900;
+  border: 2px solid white;
+}
+
+.cart{
+  display: block;
+  margin-left: 50%;
+}
+
+.dive{
+  padding: 3% 9% 3% 1%;
+  border: 8px;
+  border-style: none none solid none;
+  border-color: #76B900;
+}
+
+#divmap{
+  padding: 3% 1% 3% 1%;
+  border: 8px;
+  border-style: none none solid none;
+  border-color: #76B900;
+  position: relative;
+  z-index: -1;
+}
+
+#divheader{
+  font-weight: bolder;
+}
+
+.divdate {
+  background: #eee;
+  margin: 0;
+  height: 100%;
+}
+div {
+  font-family: Source Sans Pro;
+}
+
+#error{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+
+.essenname {
+  color: #76B900;
+  display: block;
+  font-size: 1.5em;
+  padding: 1% 9% 1% 1%;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.essen-name{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  color: #76B900;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+
+  padding: 1% 9% 1% 1%;
+  border-style: solid;
+}
+.essen-kategorie,
+.essen-ergebnisse,
+.essen-preise{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #76B900;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+
+  padding: 1% 9% 1% 1%;
+  border-style: solid;
+}
+
+.essen-inhalt{
+  text-align: left;
+  color: black;
+}
+
+#exit {
+  padding: 0.01em 0.01em;
+}
+
+.filter-btn {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.filter-liste {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#guthaben {
+  padding: 5% 9% 5% 1%;
+  border: 8px;
+  border-style: none none solid none;
+  border-color: #76B900;
+}
+
+.herz{
+  display: block;
+  margin-left: 3%;
+}
+
+#inField {
+  padding: 1% 1% 1px 1%;
+  width: 64px;
+}
+
+.kein-essen-info{
+  background-color: #76B900;
+  color: white;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px 25px;
+  font-weight: bolder;
+}
+
+.line{
+  width: 2em;
+  height: 4px;
+  background: #ffffff;
+  display: block;
+  margin: 4px;
+  z-index: 1;
+
+}
+
+.linkstyle {
+  color: #76B900;
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+#loading{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+.logos{
+  display: flex;
+  margin-top: 2%;
+}
+
+#mapdiv{
+  position: block;
+}
+
+.mensaliste{
+  width: 100%;
+}
+
+#mensalistep{
+  width: 100%;
+}
+
+#overlap{
+  margin-top: 28px;
+  display: block;
+  position: relative;
+  top: 28px;
+}
+.preis-inhalt{
+  text-align: left;
+  color: black;
+}
+
+#preisanzeige{
+  text-align: right;
+}
+.popup_inner {
+  z-index: 3;
+  border-radius: 10px;
+  position: absolute;
+  left: 10%;
+  right: 15%;
+  top: 35%;
+  bottom: 35%;
+  margin: auto;
+  background: white;
+  text-align: left;
+}
+
+.popup {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  z-index: 3;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 35%;
+  bottom: 35%;
+  margin: auto;
+  background: white;
+  text-align: left;
+}
+
+.popup {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  height: 210%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#scrollable{
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+}
+
+#sidebar{
+  z-index: 2;
+  position: fixed;
+  width: 11em;
+  height: 100%;
+  background: #76B900;
+  left: -11em;
+  transition: .4s;
+
+}
+
+#sidebar.active{
+  left: 0;
+}
+
+#sidebar.closed{
+  left: 11em;
+}
+
+#sidebar ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 24px;
+  border: 1px
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  top: 16px;
+  left: 12em;
+}
+
+#startseitetag {
+  color: #76B900;
+  padding: 15% 0px 15% 0px;
+  background: #eee;
+  border-style: solid;
+  position: relative;
+  top: -28px;
+}
+
+#startseitetag:nth-child(even) {
+  background: #ffffff;
+}
+
+#sticked-menu{
+  width: 100%;
+  font-weight: bold;
+}
+
+#topnav {
+  text-decoration: none;
+  width: 100%;
+  height: 56px;
+  background-color: #76B900;
+  overflow: auto;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1;
+  position: fixed;
+}
+
+.testClass{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0.31%;
+  bottom: 85.31%;
+}
+
+.testHeader{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* HTW Grün */
+
+  background: #77B900;
+}
+
+#Ueberschrift{
+ visibility: visible;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+  z-index: 1;
+  transition-delay: .3s;
+  text-decoration: none;
+}
+
+.ueberschrift{
+  text-decoration: underline;
+}
+
+.herz:focus, .herz:hover,
+.cart:focus, .cart:hover,
+#buttons1 li:focus, #buttons1 li:hover,
+#buttons li:focus, #buttons li:hover {
+  animation: wobble 0.5s 1;
+}
+
+@keyframes wobble {
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
